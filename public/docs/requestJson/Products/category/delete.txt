@@ -1,0 +1,4 @@
+Los campos de texto se pasan con =, los demas campos con :=
+
+http DELETE http://localhost:3000/category/delete/60b950101ae685399e6d80ac
+

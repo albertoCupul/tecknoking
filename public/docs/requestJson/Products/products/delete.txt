@@ -1,0 +1,6 @@
+Los campos de texto se pasan con =, los demas campos con :=
+El campo editable indica si es una variable del sistema y nose puede cambiar (0) o del usuario (1)
+
+http DELETE http://localhost:3000/product/delete/60da5dabf9ef2c0e60306abe
+
+

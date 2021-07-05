@@ -1,0 +1,23 @@
+Los campos de texto se pasan con =, los demas campos con :=
+El campo editable indica si es una variable del sistema y nose puede cambiar (0) o del usuario (1)
+
+http POST http://localhost:3000/product/new name="Plastilina moldeable Pelikan" sku=123456786 precioCosto:=10.00 precioVenta:=17.50 idRule="60bff453783d016aad256bec" includeIVA:=true isComplement:=false idCategory="60b9502c1ae685399e6d80ae" attribute:='{"Toxico":"No", "Color1":"Azul"}' 
+
+
+http POST http://localhost:3000/product/new name="Producto con regla de precio" sku=123456788 precioCosto:=50.00 precioVenta:=174.00 idRule="60bff453783d016aad256bec" includeIVA:=true isComplement:=true idCategory="60b9502c1ae685399e6d80ae" attribute:="{}" 
+
+
+isVirtual:=false arrayProducts=""
+
+
+la consulta equivale a:
+{
+    name:"Teclado alámbrico logitech",
+    sku : "123456789", 
+    precioCosto: 125.00,
+    precioVenta: 173.50,
+    idRule:"",
+    includeIVA: true,
+    isComplement: false,
+    idCategory: ""
+}

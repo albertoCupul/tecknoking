@@ -1,0 +1,10 @@
+Los campos de texto se pasan con =, los demas campos con :=
+
+http PUT http://localhost:3000/literals/edit id=60b81fb5de0fff7235c74a1c name=GO value=4
+
+
+la consulta equivale a:
+{
+    "id":"60b28321e37e963566f7f856"
+    "name"="rule1"
+}

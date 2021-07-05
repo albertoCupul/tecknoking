@@ -1,0 +1,8 @@
+Los campos de texto se pasan con =, los demas campos con :=
+
+http POST http://localhost:3000/rules/new name="regla de precio"
+
+la consulta equivale a:
+{
+    "name"="rule1"
+}

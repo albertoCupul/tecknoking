@@ -1,0 +1,15 @@
+Los campos de texto se pasan con =, los demas campos con :=
+
+http POST http://localhost:3000/rules/addRef id=60b6e7951568a1033fb30b44 literals:='{"1":"60b50bb5e42b58c583ea6d49"}'
+
+ó con mas variables en el json literals
+
+http POST http://localhost:3000/rules/addRef id=60bff453783d016aad256bec literals:='{"1":"60b50bb5e42b58c583ea6d49","2":"60b81fb5de0fff7235c74a1c"}'
+
+la consulta equivale a:
+{
+    "id"="60b6e7951568a1033fb30b44",
+    literals={
+        "1":"60b50bb5e42b58c583ea6d49"
+    }
+} 

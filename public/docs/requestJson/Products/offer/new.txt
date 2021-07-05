@@ -1,0 +1,23 @@
+Los campos de texto se pasan con =, los demas campos con :=
+El campo editable indica si es una variable del sistema y nose puede cambiar (0) o del usuario (1)
+
+http POST http://localhost:3000/offer/new idProduct="60da5dabf9ef2c0e60306abe" offer:='[{"name":"kamaleon", "quantity":2, "gift":"", "giftQuantity":1, "newPrice":60.00, "startDate":"2021-06-07", "endDate":""}]'
+
+
+la consulta equivale a:
+{
+    idProduct="60ba8904cf2d8454272bd886",
+    offer: [
+        {
+        name:"Teclado alámbrico logitech",
+        sku : "123456789", 
+        precioCosto: 125.00,
+        precioVenta: 173.50,
+        idRule:"",
+        includeIVA: true,
+        isComplement: false,
+        idCategory: ""
+        }
+    ]
+    
+}

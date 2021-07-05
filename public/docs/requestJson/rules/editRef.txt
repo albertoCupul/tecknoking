@@ -1,0 +1,12 @@
+Los campos de texto se pasan con =, los demas campos con :=
+
+http PUT http://localhost:3000/rules/editRef id=60b6e7951568a1033fb30b44 literals:='{"1":"60b50bb5e42b58c583ea6d49"}'
+
+
+la consulta equivale a:
+{
+    "id":"60b28321e37e963566f7f856"
+    "literals"="[{
+        "1":"60b50bb5e42b58c583ea6d49",
+    }]"
+}

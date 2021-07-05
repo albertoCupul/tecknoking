@@ -1,0 +1,3 @@
+Los campos de texto se pasan con =, los demas campos con :=
+
+http GET http://localhost:3000/rules/getList

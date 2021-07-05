@@ -1,0 +1,10 @@
+Los campos de texto se pasan con =, los demas campos con :=
+
+http PUT http://localhost:3000/category/edit id=60b9345fa2d3f125219b7a44 name=Papeleria
+
+
+la consulta equivale a:
+{
+    "id":"60b28321e37e963566f7f856"
+    "name"="rule1"
+}

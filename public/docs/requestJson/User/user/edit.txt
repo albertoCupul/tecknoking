@@ -1,0 +1,12 @@
+Los campos de texto se pasan con =, los demas campos con :=
+El campo editable indica si es una variable del sistema y nose puede cambiar (0) o del usuario (1)
+
+http PUT http://localhost:3000/user/edit id=60dbbc1ecde59035520f486c name=Adolfo first=Cohuo second=Mena phone=""
+
+la consulta equivale a:
+{
+    name = "login_app",
+    first = "Cupul",
+    second = "Aguilar",
+    phone = "9811133477"
+}

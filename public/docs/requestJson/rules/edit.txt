@@ -1,0 +1,10 @@
+Los campos de texto se pasan con =, los demas campos con :=
+
+http PUT http://localhost:3000/rules/edit id=60b5997dd85f522a57625a04 name=ganacia
+
+
+la consulta equivale a:
+{
+    "id":"60b28321e37e963566f7f856"
+    "name"="rule1"
+}

@@ -1,0 +1,24 @@
+conectar a mongoDB desde shell
+
+mongo mongodb://104.192.4.239:27017/admin -u root_teckno
+
+=== CREAR BD ===
+use databaseName
+
+=== AYUDA PARA OPCIONES DE DB ===
+db.help()
+
+=== AYUDA PARA OPCIONES DE COLLECTION ===
+db.collectionName.help()
+
+=== ELIMINAR COLLECCION ===
+db.collectionName.drop()
+
+=== MOSTRAR REGISTROS DE COLLECCION ===
+db.collectionName.find({})
+
+=== BORRAR TODOS LOS REGISTROS DE LA COLECCION ===
+db.collectionName.remove({})
+
+=== BORRAR UN REGISTRO DE PROPIEDAD ARRAY ===
+db.collectionName.update({_id: ObjectId("ID")},{$pull:{literals:ObjectId("ID")}})

@@ -1,0 +1,17 @@
+Los campos de texto se pasan con =, los demas campos con :=
+El campo editable indica si es una variable del sistema y nose puede cambiar (0) o del usuario (1)
+
+http PUT http://localhost:3000/product/edit id=60ba71d6ae242f40cbc2b6b4 name="Teclado inhalábrico logitech" sku=123456788 precioCosto:=125.00 precioVenta:=173.50 idRule="" includeIVA:=true isComplement:=false idCategory="60b9502c1ae685399e6d80ae" attribute:='{"DPI":"100","Tipo":"Cableado"}'
+
+
+la consulta equivale a:
+{
+    name:"Teclado alámbrico logitech",
+    sku : "123456789", 
+    precioCosto: 125.00,
+    precioVenta: 173.50,
+    idRule:"",
+    includeIVA: true,
+    isComplement: false,
+    idCategory: ""
+}
